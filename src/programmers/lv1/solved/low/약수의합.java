@@ -1,4 +1,4 @@
-package programmers.lv1.solved;
+package programmers.lv1.solved.low;
 
 public class 약수의합 {
     public static void main(String[] args) {

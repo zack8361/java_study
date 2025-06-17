@@ -1,4 +1,4 @@
-package programmers.lv1.solved;
+package programmers.lv1.solved.low;
 
 public class 나머지가1이되는수 {
     public static void main(String[] args) {

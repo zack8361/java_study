@@ -1,4 +1,4 @@
-package programmers.lv1.solved;
+package programmers.lv1.solved.low;
 
 public class 짝수와홀수 {
     public static void main(String[] args) {

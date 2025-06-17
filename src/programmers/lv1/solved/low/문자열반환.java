@@ -1,6 +1,4 @@
-package programmers.lv1.solved;
-
-import java.util.HashMap;
+package programmers.lv1.solved.low;
 
 public class 문자열반환 {
     public static void main(String[] args) {

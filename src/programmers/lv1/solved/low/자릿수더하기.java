@@ -1,6 +1,4 @@
-package programmers.lv1.solved;
-
-import java.util.Arrays;
+package programmers.lv1.solved.low;
 
 public class 자릿수더하기 {
     public static void main(String[] args) {

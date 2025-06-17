@@ -1,6 +1,4 @@
-package programmers.lv1.solved;
-
-import java.util.Arrays;
+package programmers.lv1.solved.low;
 
 public class 자연수뒤집어배열만들기 {
     public static void main(String[] args) {
