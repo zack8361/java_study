@@ -20,7 +20,7 @@ public class 감염된폴더 {
 
         Map<String, List<String>> tree = new HashMap<>();
 
-
+g
         for(String[] folder : folders) {
             String key = folder[0];
             String value = folder[1];
