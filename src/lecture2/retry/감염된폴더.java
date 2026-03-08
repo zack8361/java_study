@@ -1,4 +1,4 @@
-package lecture2.dfs;
+package lecture2.retry;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,13 +18,13 @@ public class 감염된폴더 {
         String p = "holiday";
         String q = "concert";
 
+
         Map<String, List<String>> tree = new HashMap<>();
 
-
-        for(String[] folder : folders) {
+        for(String[] folder: folders) {
             String key = folder[0];
             String value = folder[1];
-            tree.putIfAbsent(key, new ArrayList<>());
+            tree.put(key, tree.getOrDefault(key, new ArrayList<>()));
             tree.get(key).add(value);
         }
 
@@ -37,15 +37,13 @@ public class 감염된폴더 {
         if(node.equals(p) || node.equals(q)) {
             return node;
         }
-
         List<String> found = new ArrayList<>();
-        List<String> childern = tree.getOrDefault(node, new ArrayList<>());
+        List<String> children = tree.getOrDefault(node, new ArrayList<>());
 
-
-        for (String child : childern) {
-            String res = dfs(tree, child, p, q);
-            if(res != null) {
-                found.add(res);
+        for(String child: children) {
+            String responseNode = dfs(tree, child, p, q);
+            if(responseNode != null) {
+                found.add(responseNode);
             }
         }
 
