@@ -14,7 +14,7 @@ public class 연속된자연수의합 {
         for (int i = 1; i <= n/2+1; i++) {
             arr[i - 1] = i;
         }
-
+        
         System.out.println(Arrays.toString(arr));
 
         while (right < arr.length) {

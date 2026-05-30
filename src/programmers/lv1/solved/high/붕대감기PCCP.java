@@ -48,9 +48,6 @@ public class 붕대감기PCCP {
             }
         }
 
-
-
-
         return 0;
     }
 }

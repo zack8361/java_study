@@ -1,4 +1,4 @@
-package lecture.slidingWindow;
+package lecture.twoPointer.slidingWindow;
 
 import java.util.Scanner;
 
